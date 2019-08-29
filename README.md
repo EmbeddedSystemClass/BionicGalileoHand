@@ -1,1 +1,7 @@
-This is the circuitboard for the bionic version of the Galileo Hand project, originally developed by Julio Fajardo and Victor Ferman (researchers at Turing Lab in Galileo University).
+# Bionic Galileo Hand
+This repository contains all the files necessary to build the Bionic Galileo Hand, designed by the Turing Lab from the Galileo University in Guatemala.
+This project's goal is to provide anyone with the need for an affordable (under $500), easy-to-build, anthropomorphic, lightweight (g) and versatile prosthetic device an alternative. With 13 pre-set actions, with room to expand as necessary, the hybrid interface is controlled via a wireless myoelectric array of sensors (Myo Armband) or with mechanical switches, allowing the patient to decide the operation mode. The prosthesis also has a μLCD screen to provide the user with graphical feedback.
+
+The Bionic Galileo Hand also has mounted a main control PCB with an ARM Cortex M4 MCU (Teensy 3.2), 3 TI DRV8833 dual driver motors and a 1.44”μLCD-144-G2 screen, from 4D Systems. Its modular structure makes it simple to assemble and give maintenance to. Its fingers are assembled via waxed strings which, while coiling, close the fingers, and slingshot elastics permitting the articulations to spring back open.
+
+The prosthesis is 3D-printed and possesses a shell that encases 6 motors to operate each finger individually, as well as allowing for the thumb to rotate on its axis. This provides 15 degrees of freedom (DOF), one for each joint in the fingers to simulate flexion and extension and the additional DOF from the thumb rotation, which is at a 15° angle from the palmar, this, emulates both adduction-abduction and opposition-deposition. 
